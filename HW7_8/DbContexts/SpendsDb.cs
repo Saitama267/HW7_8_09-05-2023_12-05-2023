@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace HW7_8
 {
-    public partial class SpendsDb : DbContext
+    public partial class SpendsDb : DbContext //Class for working with db (EF)
     {
         public SpendsDb()
             : base("name=SpendsDb")
