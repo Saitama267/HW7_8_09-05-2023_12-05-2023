@@ -16,6 +16,7 @@ namespace HW7_8
 
         public int Id { get; set; }
 
+        [Required(ErrorMessage = "Category name should be written")]
         [StringLength(50)]
         public string CategoryName { get; set; }
 

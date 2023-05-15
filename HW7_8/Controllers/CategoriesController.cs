@@ -10,7 +10,7 @@ using HW7_8;
 
 namespace HW7_8.Controllers
 {
-    public class CategoriesController : Controller
+    public class CategoriesController : Controller //Controller for working with Categories table
     {
         private SpendsDb db = new SpendsDb();
 

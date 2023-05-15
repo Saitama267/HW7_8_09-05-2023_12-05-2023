@@ -12,6 +12,7 @@ namespace HW7_8
 
         public int? CategoryId { get; set; }
 
+        [Required(ErrorMessage = "Price should be written")]
         public double? Price { get; set; }
 
         [StringLength(100)]
